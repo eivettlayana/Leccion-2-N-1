@@ -1,11 +1,16 @@
-h1{
+
+ .titulo{
     color: red;
     inline-size: 0,5%;
+    color: red;
+    text-align: center;
 }
-body{
-    background-color:lightblue;
+.cuerpo{
+    background-color: lightblue;
+}   
+.nav-item a{
+    color: rgb(74, 157, 172);
 }
-h3 {
-    color: red
-}
-
+.dropdown-item a{
+    color: black;
+}       
