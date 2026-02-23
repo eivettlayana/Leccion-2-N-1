@@ -1,49 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
-        <title>Leccion 2 N°1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Leccion 2 N°1</title>
 </head>
+
 <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    </nav>
     <h1>Leccion 2 N°1</h1>
 
     <header>El alumno deberá crear una página web con la estructura base y un contenido para las etiquetas de texto.
-Utilizar etiquetas base, header, h1, p, section, article, aside, footer. Cada etiqueta debe ser comentada
-describiendo su uso</header>
+        Utilizar etiquetas base, header, h1, p, section, article, aside, footer. Cada etiqueta debe ser comentada
+        describiendo su uso</header>
 
-<section>
-    <ul>
-    <h3>Definición de estructura base</h3>
-    <li><p><strong>h1 :</strong>Los elementos de encabezado implementan seis niveles de encabezado del documento, h1 es el más importante, y h6, el menos importante. Un elemento de encabezado describe brevemente el tema de la sección que presenta. La información de encabezado puede ser usada por los agentes usuarios, por ejemplo, para construir una tabla de contenidos para un documento automáticamente.</p></li>
-    <li><p><strong>p :</strong>El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos.</p></li>
-    <li><strong>section :</strong>El elemento de HTML section representa una sección genérica de un documento</p></li>
-    <li><strong>article :</strong>El Elemento de HTML article representa una composición auto-contenida en un documento, una página, una aplicación o en un sitio, que se quiere que sea distribuíble y/o reutilizable de manera independiente, por ejemplo, en la redifusión.</p></li>
-    <li><strong>aside :</strong>El elemento HTML aside representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento.</p></li>
-    <li><strong>footer :</strong>El Elemento HTML Footer representa un pie de página para el contenido de sección más cercano o el elemento raíz de sección</p></li>
-    </ul>
-</section>
-<div style="display: flex; justify-content: center;">
-    <img src="/assets/img/megusta.jpg" alt="300 px" srcset="" style= "display: block; margin: 0 auto; width: 400px;">
-</div>
+    <section>
+        <ul class="container">
+            <h3>Definición de estructura base</h3>
+            <li>
+                <p><strong>h1 :</strong>Los elementos de encabezado implementan seis niveles de encabezado del
+                    documento, h1 es el más importante, y h6, el menos importante. Un elemento de encabezado describe
+                    brevemente el tema de la sección que presenta. La información de encabezado puede ser usada por los
+                    agentes usuarios, por ejemplo, para construir una tabla de contenidos para un documento
+                    automáticamente.</p>
+            </li>
+            <li>
+                <p><strong>p :</strong>El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos.</p>
+            </li>
+            <li><strong>section :</strong>El elemento de HTML section representa una sección genérica de un documento
+                </p>
+            </li>
+            <li><strong>article :</strong>El Elemento de HTML article representa una composición auto-contenida en un
+                documento, una página, una aplicación o en un sitio, que se quiere que sea distribuíble y/o reutilizable
+                de manera independiente, por ejemplo, en la redifusión.</p>
+            </li>
+            <li><strong>aside :</strong>El elemento HTML aside representa una sección de una página que consiste en
+                contenido que está indirectamente relacionado con el contenido principal del documento.</p>
+            </li>
+            <li><strong>footer :</strong>El Elemento HTML Footer representa un pie de página para el contenido de
+                sección más cercano o el elemento raíz de sección</p>
+            </li>
+        </ul>
+    </section>
+    <div style="display: flex; justify-content: center;">
+        <img src="/assets/img/megusta.jpg" alt="300 px" srcset="" style="display: block; margin: 0 auto; width: 400px;">
+    </div>
 
 
-<article>
-     <h5>DESARROLLO DE APLICACIONES FULL STACK PYTHON TRAINEE V2.0 RTD-24-01-06-0023-4</h6>
-</article>
+    <article>
+        <h5>DESARROLLO DE APLICACIONES FULL STACK PYTHON TRAINEE V2.0 RTD-24-01-06-0023-4</h6>
+    </article>
 
-<aside>
-    <p><strong>Nombre : </strong>Eivett Layana </p>
-    <p><strong>Rut :</strong> 18.354.234-6</p>
-    <p><strong>Correo :</strong> eivett.layana@gmail.com</p>
-</aside>
+    <aside>
+        <p><strong>Nombre : </strong>Eivett Layana </p>
+        <p><strong>Rut :</strong> 18.354.234-6</p>
+        <p><strong>Correo :</strong> eivett.layana@gmail.com</p>
+    </aside>
 
-<footer> 
+    <footer>
         <p>Coquimbo, 17 de febrero 2026 </p>
-</footer>
-    
-   
-    
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
