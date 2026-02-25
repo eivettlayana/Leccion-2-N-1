@@ -5,6 +5,10 @@
     color: red;
     text-align: center;
 }
+.titulo2{
+    color: red;
+    text-align: center;
+}
 .cuerpo{
     background-color: lightblue;
 }   
@@ -13,4 +17,8 @@
 }
 .dropdown-item a{
     color: black;
-}       
+}      
+.introduccion{
+    color: black;
+    text-align: center;
+} 
