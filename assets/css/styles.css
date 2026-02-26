@@ -1,13 +1,8 @@
 
- .titulo{
-    color: red;
-    inline-size: 0,5%;
-    color: red;
-    text-align: center;
+ .text-danger{
+        text-align: center;
 }
-.titulo2{
-    color: red;
-    text-align: center;
+
 }
 .cuerpo{
     background-color: lightblue;
